@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="yoctoproject"  fetch="git://git.yoctoproject.org"/>
-  <default remote="yoctoproject" revision="refs/heads/master" sync-j="4" />
- 
-  <remote name="openembedded"  fetch="git://git.openembedded.org"/>
-  <default remote="openembedded" revision="refs/heads/master" sync-j="4" />
-   
+  <default remote="yoctoproject" revision="refs/heads/master" sync-j="4" /> 
   
   <project remote="yoctoproject"  revision="dunfell" name="poky"              path="poky"/>
 </manifest>
