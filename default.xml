@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="yoctoproject"  fetch="git://git.yoctoproject.org"/>
-  <default remote="yoctoproject" revision="dunfell" sync-j="4" />
+  <default remote="yoctoproject" revision="refs/heads/master" sync-j="4" />
   
   <remote name="openembedded"  fetch="git://git.openembedded.org"/>
-  <default remote="openembedded" revision="dunfell" sync-j="4" />
+  <default remote="openembedded" revision="refs/heads/master" sync-j="4" />
   
   <remote name="qt5"  fetch="https://github.com/meta-qt5"/>
-  <default remote="qt5" revision="dunfell" sync-j="4" />
+  <default remote="qt5" revision="refs/heads/master" sync-j="4" />
   
   <remote name="jumpnow"  fetch="https://github.com/jumpnow"/>
   <default remote="jumpnow" revision="dunfell" sync-j="4" />
