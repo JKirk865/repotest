@@ -4,8 +4,9 @@
   <project remote="yoctoproject"  revision="dunfell" name="poky"          path="poky"/>
   <project remote="yoctoproject"  revision="dunfell" name="meta-security" path="meta-security"/>
   
-   <remote name="jumpnow" fetch="git://github.com/jumpnow"/>
-   <project remote="jumpnow"  revision="dunfell" name="meta-jumpnow" path="meta-jumpnow"/>
+  <remote name="jumpnow" fetch="git://github.com/jumpnow"/>
+  <project remote="jumpnow"  revision="dunfell" name="meta-jumpnow" path="meta-jumpnow"/>
+  <project remote="jumpnow"  revision="dunfell" name="meta-bbb" path="bbb"/>
 
   <remote name="open" fetch="git://git.openembedded.org"/>
   <project remote="open"  revision="dunfell" name="meta-openembedded" path="meta-openembedded"/>
