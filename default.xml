@@ -4,4 +4,8 @@
   <default remote="yoctoproject" revision="refs/heads/master" sync-j="4" />
   <project remote="yoctoproject"  revision="dunfell" name="poky"              path="poky"/>
   <project remote="yoctoproject"  revision="dunfell" name="meta-security"     path="meta-security"/>
+  
+   <remote name="jumpnow"  fetch="https://github.com/jumpnow"/>
+   <project remote="jumpnow"       revision="dunfell" name="meta-jumpnow."     path="meta-jumpnow"/>
+
 </manifest>
