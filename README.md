@@ -4,7 +4,7 @@ Learning how the Gerrit/Repo command works by building a manifest for https://ju
   ~/git-repo/repo init -u git://github.com/JKirk865/repotest -m default.xml -b main
 
 Other Links
-https://www.instructables.com/Using-Googles-repo-command-in-your-own-projects/
-https://gerrit.googlesource.com/git-repo/
-https://source.android.com/setup/develop/repo
-https://github.com/Xilinx/yocto-manifests
+1. https://www.instructables.com/Using-Googles-repo-command-in-your-own-projects/
+1. https://gerrit.googlesource.com/git-repo/
+1. https://source.android.com/setup/develop/repo
+1. https://github.com/Xilinx/yocto-manifests
