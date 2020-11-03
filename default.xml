@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="yoctoproject"  fetch="git://git.yoctoproject.org"/>
-  <project remote="yoctoproject"  revision="dunfell" name="poky"              path="poky"/>
-  <project remote="yoctoproject"  revision="dunfell" name="meta-security"     path="meta-security"/>
+  <project remote="yoctoproject"  revision="dunfell" name="poky"          path="poky"/>
+  <project remote="yoctoproject"  revision="dunfell" name="meta-security" path="meta-security"/>
   
    <remote name="jumpnow" fetch="git://github.com/jumpnow"/>
-   <project remote="jumpnow"  revision="dunfell" name="meta-jumpnow"     path="meta-jumpnow"/>
+   <project remote="jumpnow"  revision="dunfell" name="meta-jumpnow" path="meta-jumpnow"/>
 
   <remote name="open" fetch="git://git.openembedded.org"/>
   <project remote="open"  revision="dunfell" name="meta-openembedded" path="meta-openembedded"/>
+  
+  <remote name="qt5"  fetch="git://github.com/meta-qt5"/>
+  <project remote="qt5" revision="dunfell" name="meta-qt5" path="meta-qt5"/>
   
 </manifest>
